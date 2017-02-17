@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #b5b5b5;
+	font-family: 'Poppins' , Tahoma;
+}
+
+nav {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	padding: 40px 0 30px 0;
+}
+
+nav .title {
+	position: relative;
+	float: left;
+	left: 3%;
+	font-family: 'Lobster' , Tahoma;
+}
+
+nav img {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0;
+	top: 15px;
+	padding-right: 7px;
+}
+
+nav h1 {
+	position: relative;
+	display: inline-block;
+	color: black;
+}
+
+nav ul {
+	position: relative;
+	float: right;
+	right: 3%;
+	top: 10px;
+	list-style: none;
+}
+
+
+nav li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+hr {
+	position: relative;
+	width: 95%;
+	border-color: black;
+}
+
+header {
+	text-align: center;
+	padding-top: 30px;
+}
+
+header span {
+	color: red;
+	font-weight: bold;
+}
+
+#banner {
+	background-image: url("../img/subie.png");
+	background-size: 100%;
+	height: 350px;
+	width: 95%;
+	margin: 0 auto;
+	border: 2px solid transparent;
+	border-radius: 10px;
+}
+
+#about {
+	text-align: center;
+	padding: 50px 50px 100px 50px;
+
+}
+
+#about div {
+	float: left;
+	width: 600px;
+	height: 250px;
+	display: inline-block;
+	padding-left: 15px
+}
+
+#about div h2 {
+	font-family: 'Lobster' , Tahoma;
+	color: red;
+	padding: 15px;
+}
+
+#about div p {
+	padding: 0 20px 0 20px;
+}
+
+#work {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#work .car {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 15px;
+}
+
+#work img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+#work .text {
+	text-align: left;
+	padding-left: 3%
+}
+
+#work h2 {
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0;
+}
+
+#work p {
+	color: black;
+	line-height: 10px;
+	margin: 0;
+}
+
+#work h1 {
+	font-family: 'Lobster' , Tahoma;
+	color: red;
+}
+
+footer {
+	height: 300px;
+	background-color: black;
+}
+
+footer .contact {
+	float: left;
+	height: 250px;
+	width: 40%;
+	padding: 30px 0 0 20px;
+}
+
+footer .contact h1 {
+	color: red;
+	font-family: 'Lobster' , Tahoma;
+}
+
+footer .contact input {
+	width: 95%;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+footer .contact #three {
+ 	padding: 0 0 50px 0;
+}
+
+footer .contact #four {
+	width: 15%;
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px 0 0 0;
+	text-align: left;
+	font-weight: bold;
+}
+
+footer .social {
+	float: right;
+	padding: 130px 15px 0 0;
+}
+
+footer .social i {
+	display: inline-block;
+	color: red;
+	padding: 15px;
+
+}
