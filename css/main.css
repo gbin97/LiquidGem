@@ -1,44 +1,43 @@
 body {
-	margin: 0;
+	margin-top: 160px;
 	padding: 0;
 	background-color: #b5b5b5;
 	font-family: 'Poppins' , Tahoma;
 }
 
 nav {
-	position: relative;
+	position: fixed;
+	background-color: rgba(180,180,180,0.7);
+	top: 0;
+	left: 0;
 	width: 100%;
-	height: 50px;
+	height: 70px;
 	padding: 40px 0 30px 0;
 }
 
 nav .title {
-	position: relative;
 	float: left;
-	left: 3%;
+	padding: 0 0 0 50px;
 	font-family: 'Lobster' , Tahoma;
 }
 
 nav img {
-	position: relative;
 	display: inline-block;
+	float: left;
 	font-size: 20px;
 	margin: 0;
 	top: 15px;
-	padding-right: 7px;
+	padding: 13px 8px 0 0;
 }
 
 nav h1 {
-	position: relative;
-	display: inline-block;
 	color: black;
+	display: inline-block;
 }
 
 nav ul {
-	position: relative;
 	float: right;
-	right: 3%;
-	top: 10px;
+	padding: 10px 50px 0 0;
 	list-style: none;
 }
 
@@ -58,7 +57,6 @@ nav a:hover {
 }
 
 hr {
-	position: relative;
 	width: 95%;
 	border-color: black;
 }
@@ -74,14 +72,16 @@ header span {
 }
 
 #banner {
-	background-image: url("../img/subie.png");
-	background-size: 100%;
-	height: 350px;
+	height: 520px;
 	width: 95%;
 	margin: 0 auto;
-	border: 2px solid transparent;
-	border-radius: 10px;
 }
+
+#banner img {
+	width: 100%;
+	border-radius: 40px;
+}
+
 
 #about {
 	text-align: center;
@@ -90,11 +90,9 @@ header span {
 }
 
 #about div {
-	float: left;
-	width: 600px;
-	height: 250px;
+	width: 49%;
+	height: 200px;
 	display: inline-block;
-	padding-left: 15px
 }
 
 #about div h2 {
@@ -108,7 +106,8 @@ header span {
 }
 
 #work {
-	width: 90%;
+	width: 70%;
+	height: 540px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -116,7 +115,7 @@ header span {
 #work .car {
 	display: inline-block;
 	width: 200px;
-	height: 200px;
+	height: 180px;
 	border-radius: 10px;
 	background-color: #fff;
 	margin: 15px;
@@ -177,14 +176,14 @@ footer .contact #three {
  	padding: 0 0 50px 0;
 }
 
-footer .contact #four {
-	width: 15%;
+footer .contact .button {
+	margin-top: 15px;
+}
+footer .contact .button button {
 	background-color: black;
 	color: white;
-	border: none;
-	padding: 10px 0 0 0;
-	text-align: left;
 	font-weight: bold;
+	border: none;
 }
 
 footer .social {
@@ -197,4 +196,88 @@ footer .social i {
 	color: red;
 	padding: 15px;
 
+}
+
+@media(max-width: 721px) {
+	body {
+		margin-top: 210px;
+	}
+
+	nav {
+		height: 130px;
+	}
+
+	nav ul {
+		float: left;
+	}
+}
+
+@media(max-width: 660px) {
+	nav ul {
+		float: left;
+	}
+}
+
+@media(max-width: 1400px) {
+	#banner {
+		height: 320px;
+	}
+}
+
+@media(max-width: 870px) {
+	#banner {
+		height: 200px;
+	}
+}
+
+@media(max-width: 470px) {
+	#banner {
+		height: 90px;
+	}
+}
+
+@media(max-width:900px) {
+	#about div {
+		width: 100%;
+	}
+}
+
+@media(max-width: 1688px) {
+	#work {
+		height: 720px;
+	}
+}
+
+@media(max-width: 1366px) {
+	#work {
+		height: 920px;
+	}
+}
+
+@media(max-width: 1017px) {
+	#work {
+		height: 1200px;
+	}
+}
+
+@media(max-width: 681px) {
+	#work {
+		height: 2250px;
+	}
+}
+
+@media(max-width: 386px) {
+	footer .social {
+		float: left;
+	}
+
+	footer {
+		height: 380px;
+	}
+}
+
+@media(max-width: 385px) {
+	footer .social {
+		padding-top: 20px;
+	}
 }
